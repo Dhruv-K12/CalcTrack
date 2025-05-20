@@ -1,11 +1,13 @@
+import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-
+import { StyleSheet } from "react-native";
+import App from "./App";
 const index = () => {
   return (
-    <View>
-      <Text>index</Text>
-    </View>
+    <>
+      <StatusBar style="auto" />
+      <App />
+    </>
   );
 };
 
